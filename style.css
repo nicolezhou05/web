@@ -1,1 +1,19 @@
+body {
+  background-color: aliceblue;
+  color: cornflowerblue;
+  border: thick double #1e90ff;
+}
 
+h1 {
+  font-family: fantasy;
+}
+
+h2 {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-weight: normal;
+}

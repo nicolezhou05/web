@@ -1,26 +1,29 @@
 body {
   background-color: aliceblue;
-  color: royalblue;
   border: thick double dodgerblue;
 }
 
 h1 {
+  text-align: center;
   font-family: fantasy;
+  color: blue;
 }
 
 h2 {
   font-family: "Lucida Sans Unicode", sans-serif;
   font-weight: bold;
   text-align: center;
+  color: royalblue;
 }
 
 p {
   font-family: "Lucida Sans Unicode", sans-serif;
-  font-weight: normal
+  font-weight: normal;
+  color: royalblue;
 }
 
 nav {
-  border-bottom: 1px solid dodgerblue;
+  background-color: lightblue;
 }
 
 ul {
@@ -28,11 +31,25 @@ ul {
   padding-left: 0;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 li {
   display: inline-block;
+  padding-right: 15px;
+}
+
+a.active {
+  background-color: dodgerblue;
 }
 
 img {
-  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 700px;
   height: auto;
 }
